@@ -2915,8 +2915,8 @@ PHY_GetTxPowerLimit(_adapter *adapter
 	_irqL irqL;
 
 	/* MP mode channel don't use secondary channel */
-	if (rtw_mp_mode_check(adapter) == _TRUE)
-		no_sc = _TRUE;
+	//if (rtw_mp_mode_check(adapter) == _TRUE)
+	//	no_sc = _TRUE;
 
 	if (IS_CCK_RATE(rate)) {
 		tlrs = TXPWR_LMT_RS_CCK;

@@ -109,10 +109,10 @@
 	#endif
 
 
-	/*#define CONFIG_CONCURRENT_MODE 1 */
+	#define CONFIG_CONCURRENT_MODE 1
 	#ifdef CONFIG_CONCURRENT_MODE
 		/* #define CONFIG_HWPORT_SWAP */				/* Port0->Sec , Port1->Pri */
-		/*#define CONFIG_RUNTIME_PORT_SWITCH*/
+		/* #define CONFIG_RUNTIME_PORT_SWITCH */
 		/* #define DBG_RUNTIME_PORT_SWITCH */
 		#define CONFIG_SCAN_BACKOP
 		#if 0

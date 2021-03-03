@@ -4565,8 +4565,8 @@ s32 pre_recv_entry(union recv_frame *precvframe, u8 *pphy_status)
 	_adapter *primary_padapter = precvframe->u.hdr.adapter;
 
 #ifdef CONFIG_MP_INCLUDED
-	if (rtw_mp_mode_check(primary_padapter))
-		return ret;
+//	if (rtw_mp_mode_check(primary_padapter))
+//		return ret;
 #endif
 
 	pda = get_ra(pbuf);
