@@ -6,3 +6,5 @@ Module.symvers
 modules.order
 rtl8821au.mod.c
 .tmp_versions
+rtl8822bu.mod
+rtl8822bu.mod.c
